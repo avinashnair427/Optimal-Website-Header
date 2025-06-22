@@ -73,6 +73,7 @@ main{
     height: 100%;
     position: relative;
     font-style: italic;
+    overflow: hidden;
 }
 .static, .dynamic{
     display: flex;
@@ -91,7 +92,7 @@ main{
     bottom: 0;
     z-index: 99;
     overflow: hidden;
-    transition: width 300ms cubic-bezier(.57,.91,.63,.94);
+    transition: width 400ms cubic-bezier(.21,1.17,.52,1.35);
     background-color: var(--dark);
 }
 .static h2, .dynamic h2{
